@@ -61,18 +61,18 @@ img{
     grid-column: 1 / 4;
 }
 
-.animais p{
+.animais p, .faq-info dd{
     font-family: Helvetica, Arial;
-    line-height: 1.2;
+    line-height: 1.5;
     margin-bottom: 1rem;
 }
 
-.animais h2{
+.animais h2, .faq-info dt{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 1rem;
-    text-transform: uppercase;
     letter-spacing: .1rem;
     margin-bottom: 1rem;color: #e54;
+    font-weight: bold;
 }
 
 .animais h2::before{
@@ -110,4 +110,26 @@ img{
 
 .animais-descricao section{
     margin-bottom: 3rem;
+}
+
+.faq-info{
+    grid-column: 2 / 4;
+}
+
+.faq-info dt::before{
+    content: " ";
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.625rem;
+    margin-right: 0.625rem;
+    background-color: #fb5;
+}
+
+.faq-info dd{
+    margin-left: 1.825rem;
+    margin-bottom: 1rem;
+}
+
+.faq-info dt{
+    margin-bottom: .5rem;
 }
