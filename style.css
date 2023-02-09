@@ -10,7 +10,7 @@ body{
     grid-template-columns: 1fr 6.5rem minmax(18.75rem, 50rem) 1fr;
 }
 
-.menu{
+.menu, footer{
     grid-column: 3 / 5;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -25,7 +25,7 @@ body{
     padding: 0.625rem;
 }
 
-.menu li a{
+.menu li a, footer p{
     display: block;
     padding: 0.625rem;
     color: #222;
@@ -116,7 +116,7 @@ img{
     grid-column: 2 / 4;
 }
 
-.faq-info dt::before{
+.faq-info dt::before, .dados li::before{
     content: " ";
     display: inline-block;
     width: 1.2rem;
@@ -132,4 +132,22 @@ img{
 
 .faq-info dt{
     margin-bottom: .5rem;
+}
+
+footer p{
+    padding: 1.25rem;
+}
+
+.mapa{
+    grid-column: 2;
+}
+
+.dados{
+    grid-column: 3;
+}
+
+.dados li{
+    margin-bottom: 1rem;
+    font-family: Helvetica, Arial;
+    list-style: none;
 }
