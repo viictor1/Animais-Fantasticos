@@ -151,3 +151,43 @@ footer p{
     font-family: Helvetica, Arial;
     list-style: none;
 }
+
+
+@media(max-width: 700px){
+    body{
+        grid-template-columns: 1fr;
+    }
+
+    .menu, .grid, .copyright{
+        grid-column: 1;
+    }
+
+    .grid{
+        grid-template-columns: 100px 1fr;
+        gap: 0.625rem;
+    }
+
+    .animais-lista{
+        grid-column: 1;
+    }
+
+    .faq-lista, .dados, .mapa{
+        grid-column: 1 / 3;
+    }
+
+    .grid h1{
+        font-size: 3rem;
+    }
+
+    .menu{
+        margin-top: 0;
+    }
+
+    .menu ul{
+        justify-content: center;
+    }
+
+    .copyright{
+        margin-bottom: 0;
+    }
+}
