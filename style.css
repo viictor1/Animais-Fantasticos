@@ -1,0 +1,113 @@
+body, h1, h2, ul, li, p, dd, dt, dl{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #faf6ed;
+    color: #222;
+    display: grid;
+    grid-template-columns: 1fr 6.5rem minmax(18.75rem, 50rem) 1fr;
+}
+
+.menu{
+    grid-column: 3 / 5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #fb5;
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.625rem;
+    padding: 0.625rem;
+}
+
+.menu li a{
+    display: block;
+    padding: 0.625rem;
+    color: #222;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    font-size: .875rem;
+    letter-spacing: .1rem;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.grid{
+    grid-column: 2 / 4;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.625rem;
+    display: grid;
+    grid-template-columns: 4.7rem 18.75rem 1fr;
+    grid-gap: 1.25rem;
+    margin-bottom: 4rem;
+}
+
+.titulo{
+    font-family: 'Playfair Display SC', georgia;
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    grid-column: 1 / 4;
+}
+
+.animais p{
+    font-family: Helvetica, Arial;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.animais h2{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-bottom: 1rem;color: #e54;
+}
+
+.animais h2::before{
+    content: " ";
+    display: inline-block;
+    width: 2.5rem;
+    height: 0.625rem;
+    margin-right: 0.625rem;
+    background-color: #fb5;
+}
+
+.animais-lista{
+    height: 23rem;
+    overflow-y: scroll;
+    grid-column: 2;
+}
+
+.animais-lista::-webkit-scrollbar{
+    width: 1.2rem;
+}
+
+.animais-lista::-webkit-scrollbar-thumb{
+    background: #Fb5;
+    border-left: 4px solid #faf6ed;
+    border-right: 4px solid #faf6ed;
+}
+
+.animais-lista::-webkit-scrollbar-track{
+    background: #faf6ed;
+}
+
+.animais-descricao{
+    grid-column: 3;
+}
+
+.animais-descricao section{
+    margin-bottom: 3rem;
+}
