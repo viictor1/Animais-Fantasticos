@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
     <title>Animais Fantásticos</title>
+
+    <script>
+        document.documentElement.className += ' js'; /*acessibilidade caso a pessoa não tenha js ativo, ou navegador antigo */
+    </script>
 </head>
 <body>
     <nav class="menu">
@@ -26,8 +30,7 @@
 
     <section class="grid animais" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
-
-        <ul class="animais-lista">
+        <ul class="animais-lista js-tabMenu">
             <li><img src="./assets/imagem1.jpg" alt=""></li>
             <li><img src="./assets/imagem2.jpg" alt=""></li>
             <li><img src="./assets/imagem3.jpg" alt=""></li>
@@ -36,7 +39,7 @@
             <li><img src="./assets/imagem6.jpg" alt=""></li>
         </ul>
 
-        <section class="animais-descricao">
+        <section class="animais-descricao js-tabContent">
             <section>
                 <h2>Raposa</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae.
@@ -162,5 +165,7 @@
     <footer class="copyright">
         <p>Todos os direitos reservados.</p>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>

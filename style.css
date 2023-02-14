@@ -88,6 +88,16 @@ img{
     height: 23rem;
     overflow-y: scroll;
     grid-column: 2;
+    overflow-x: hidden; /* tirar barra de largura */
+}
+
+.animais-lista img{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.animais-lista img:hover{
+    transform: scale(1.2);
 }
 
 .animais-lista::-webkit-scrollbar{
@@ -150,6 +160,26 @@ footer p{
     margin-bottom: 1rem;
     font-family: Helvetica, Arial;
     list-style: none;
+}
+
+.js .js-tabContent section{
+    display: none;
+}
+
+.js .js-tabContent section.ativo{
+    display: block;
+    animation: show .5s forwards;
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 
