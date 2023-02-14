@@ -137,11 +137,11 @@ img{
 
 .faq-info dd{
     margin-left: 1.825rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .faq-info dt{
-    margin-bottom: .5rem;
+    margin-bottom: 1.2rem;
 }
 
 footer p{
@@ -171,6 +171,7 @@ footer p{
     animation: show .5s forwards;
 }
 
+
 @keyframes show {
     from{
         opacity: 0;
@@ -182,6 +183,34 @@ footer p{
     }
 }
 
+.js .js-accordion dd{
+    display: none;
+}
+
+.js .js-accordion dt::after{
+    content: "⮧";
+    margin-left: 10px;
+}
+
+.js .js-accordion dt.ativo::after{
+    content: "⮥";
+}
+
+.js .js-accordion dd.ativo{
+    display: block;
+    animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown {
+    from{
+        opacity: 0;
+        max-height: 0;
+    }
+    to{
+        max-height: 150px;
+        opacity: 1;
+    }
+}
 
 @media(max-width: 700px){
     body{
