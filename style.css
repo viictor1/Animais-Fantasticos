@@ -137,11 +137,12 @@ img{
 
 .faq-info dd{
     margin-left: 1.825rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .faq-info dt{
     margin-bottom: 1.2rem;
+    cursor: pointer;
 }
 
 footer p{
