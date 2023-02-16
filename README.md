@@ -2,6 +2,8 @@
 
 ## Acesse o deploy do projeto: [Projeto](https://animais-fantasticos-victor.vercel.app/)
 
+## Projeto desenvolvido com o curso de JavaScript da [Origamid](https://www.origamid.com/)
+
 ## Tecnologias utilizadas
 - HTML, CSS e JavaScript
 
