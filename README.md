@@ -23,8 +23,8 @@
 - Accordion List
 
 ## Versão desktop
-![Foto portfólio](./projeto-desktop.png)
+![Foto projeto](./projeto-desktop.png)
 
 ## Versão mobile
-![Foto portfólio](./projeto-mobile.png)
+![Foto projeto](./projeto-mobile.png)
 
