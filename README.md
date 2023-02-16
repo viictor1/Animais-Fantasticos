@@ -1,6 +1,6 @@
 # Animais-Fantasticos
 
-## Acesse o deploy do projeto: [Portfólio](https://animais-fantasticos-victor.vercel.app/)
+## Acesse o deploy do projeto: [Projeto](https://animais-fantasticos-victor.vercel.app/)
 
 ## Tecnologias utilizadas
 - HTML, CSS e JavaScript
@@ -21,8 +21,8 @@
 - Accordion List
 
 ## Versão desktop
-![Foto portfólio]()
+![Foto portfólio](./projeto-desktop.png)
 
 ## Versão mobile
-![Foto portfólio]()
+![Foto portfólio](./projeto-mobile.png)
 
