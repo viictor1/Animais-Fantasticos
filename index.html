@@ -19,7 +19,7 @@
     </script>
 </head>
 <body>
-    <nav class="menu js-menu">
+    <nav class="menu" data-menu="suave">
         <ul>
             <li><a href="#animais">ANIMAIS</a></li>
             <li><a href="#faq">FAQ</a></li>
@@ -27,9 +27,9 @@
         </ul>
     </nav>
 
-    <section class="grid animais js-scroll" id="animais">
+    <section class="grid animais" data-anime="scroll" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
-        <ul class="animais-lista js-tabMenu">
+        <ul class="animais-lista" data-tab="menu">
             <li><img src="./assets/imagem1.jpg" alt=""></li>
             <li><img src="./assets/imagem2.jpg" alt=""></li>
             <li><img src="./assets/imagem3.jpg" alt=""></li>
@@ -38,8 +38,8 @@
             <li><img src="./assets/imagem6.jpg" alt=""></li>
         </ul>
 
-        <section class="animais-descricao js-tabContent">
-            <section>
+        <section class="animais-descricao" data-tab="content">
+            <section data-anime="show-right">
                 <h2>Raposa</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae.
                     São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
@@ -53,7 +53,7 @@
                 </p>
             </section>
 
-            <section>
+            <section data-anime="show-right">
                 <h2>Esquilo</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae.
                     São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
@@ -67,7 +67,7 @@
                 </p>
             </section>
 
-            <section>
+            <section data-anime="show-down">
                 <h2>Urso</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae.
                     São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
@@ -81,7 +81,7 @@
                 </p>
             </section>
 
-            <section>
+            <section data-anime="show-down">
                 <h2>Lobo</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae.
                     São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
@@ -95,7 +95,7 @@
                 </p>
             </section>
 
-            <section>
+            <section data-anime="show-right">
                 <h2>Macaco</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae.
                     São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
@@ -109,7 +109,7 @@
                 </p>
             </section>
 
-            <section>
+            <section data-anime="show-down">
                 <h2>Leão</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae.
                     São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
@@ -126,9 +126,9 @@
         </section>
     </section>
 
-    <section class="grid faq js-scroll" id="faq">
+    <section class="grid faq"  data-anime="scroll" data-anime="scroll" id="faq">
         <h1 class="titulo">FAQ</h1>
-        <dl class="faq-info js-accordion">
+        <dl class="faq-info" data-anime="accordion">
             <dt>Qual a idade dos animais?</dt>
             <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. 
                 São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.
@@ -148,7 +148,7 @@
         </dl>
     </section>
 
-    <section class="grid contato js-scroll" id="contato">
+    <section class="grid contato"  data-anime="scroll" id="contato">
         <h1 class="titulo">Contato</h1>
         <div class="mapa">
             <img src="./assets/mapa.png" alt="mapa">
@@ -165,6 +165,7 @@
         <p>Todos os direitos reservados.</p>
     </footer>
 
+    <script src="./animacoes.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>
