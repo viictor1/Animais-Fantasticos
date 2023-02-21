@@ -21,6 +21,7 @@
 - Acessibilidade em relação a JavaScript
 - Eventos
 - Accordion List
+- Trabalhar com Módulos
 
 ## Versão desktop
 ![Foto projeto](./projeto-desktop.png)
