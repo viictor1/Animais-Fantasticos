@@ -6,6 +6,9 @@ body, h1, h2, ul, li, p, dd, dt, dl{
 body{
     background-color: #faf6ed;
     color: #222;
+}
+
+.grid-container{
     display: grid;
     grid-template-columns: 1fr 6.5rem minmax(18.75rem, 50rem) 1fr;
 }
@@ -35,6 +38,7 @@ body{
     font-size: .875rem;
     letter-spacing: .1rem;
 }
+
 
 img{
     display: block;
@@ -243,7 +247,7 @@ footer p{
 
 
 @media(max-width: 700px){
-    body{
+    .grid-container{
         grid-template-columns: 1fr;
     }
 

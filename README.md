@@ -12,6 +12,7 @@
 - Scroll suave ao clicar nos links internos
 - Mostrar resposta ao clicar na pergunta do FAQ (accordion list)
 - Animação mostrando as sections ao scrollar pela página
+- Modal de login
 
 ## Habilidades desenvolvidas
 - Responsividade 
@@ -22,6 +23,7 @@
 - Eventos
 - Accordion List
 - Trabalhar com Módulos
+- Modal
 
 ## Versão desktop
 ![Foto projeto](./projeto-desktop.png)
