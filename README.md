@@ -13,6 +13,7 @@
 - Mostrar resposta ao clicar na pergunta do FAQ (accordion list)
 - Animação mostrando as sections ao scrollar pela página
 - Modal de login
+- Caixa com mais informações ou mover o mouse por cima do mapa em contato
 
 ## Habilidades desenvolvidas
 - Responsividade 
@@ -24,6 +25,7 @@
 - Accordion List
 - Trabalhar com Módulos
 - Modal
+- ToolTipBox
 
 ## Versão desktop
 ![Foto projeto](./projeto-desktop.png)
