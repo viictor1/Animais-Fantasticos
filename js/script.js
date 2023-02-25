@@ -5,6 +5,7 @@ import tabNav from './modules/tabNav.js';
 import modal from './modules/modal.js'
 import tooltip from './modules/tooltip.js';
 import dropDownMenu from './modules/dropDownMenu.js';
+import menuMobile from './modules/menuMobile.js';
 
 scrollSuave();
 animaScroll();
@@ -13,3 +14,4 @@ tabNav();
 modal();
 tooltip();
 dropDownMenu();
+menuMobile();

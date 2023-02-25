@@ -15,6 +15,7 @@
 - Modal de login
 - Caixa com mais informações ou mover o mouse por cima do mapa em contato
 - Menu dropdown ao apertar em 'sobre', que desaparece ao clicar fora dela
+- Menu Mobile
 
 ## Habilidades desenvolvidas
 - Responsividade 
