@@ -7,7 +7,7 @@
 }
 
 [data-dropDown]:hover .dropDownMenu,
-[data-dropDown].ativo .dropDownMenu{
+[data-dropDown] .dropDownMenu.ativo{
     display: block;
     animation: showUp .3s;
 }
@@ -38,8 +38,8 @@
 .dropDownMenu::before{
     display: block;
     content: '';
-    position: absolute;
-    top: -10px;
+    position: relative;
+    top: -20px;
     width: 0;
     height: 0;
     border-bottom: 10px solid #E54;
