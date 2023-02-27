@@ -16,6 +16,7 @@
 - Caixa com mais informações ou mover o mouse por cima do mapa em contato
 - Menu dropdown ao apertar em 'sobre', que desaparece ao clicar fora dela
 - Menu Mobile
+- Animação de números crescendo (estilo timer)
 
 ## Habilidades desenvolvidas
 - Responsividade 
@@ -28,6 +29,7 @@
 - Trabalhar com Módulos
 - Modal
 - ToolTipBox
+- Utilizar Mutation Observer
 
 ## Versão desktop
 ![Foto projeto](./projeto-desktop.png)

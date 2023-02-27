@@ -3,7 +3,6 @@ import outsideClick from "./outsideClick.js";
 export default function dropDownMenu(){
     const dropBtn = document.querySelectorAll('[data-dropDown]');
     const dropMenu = document.querySelector('.dropDownMenu');
-    console.log(dropMenu)
 
     dropBtn.forEach((item) => {
         ['touchstart', 'click'].forEach((userEvent) => {
