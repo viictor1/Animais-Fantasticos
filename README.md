@@ -17,6 +17,7 @@
 - Menu dropdown ao apertar em 'sobre', que desaparece ao clicar fora dela
 - Menu Mobile
 - Animação de números crescendo (estilo timer)
+- Indicador visual indicando se está ou não em horário de funcionamento
 
 ## Habilidades desenvolvidas
 - Responsividade 
@@ -30,6 +31,7 @@
 - Modal
 - ToolTipBox
 - Utilizar Mutation Observer
+- Trabalhar com Date
 
 ## Versão desktop
 ![Foto projeto](./projeto-desktop.png)

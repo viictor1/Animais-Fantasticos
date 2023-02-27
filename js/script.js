@@ -7,6 +7,7 @@ import tooltip from './modules/tooltip.js';
 import dropDownMenu from './modules/dropDownMenu.js';
 import menuMobile from './modules/menuMobile.js';
 import animaNumeros from './modules/animaNumeros.js';
+import dateFuncionamento from './modules/dateFuncionamento.js';
 
 scrollSuave();
 animaScroll();
@@ -17,3 +18,4 @@ tooltip();
 dropDownMenu();
 menuMobile();
 animaNumeros();
+dateFuncionamento();

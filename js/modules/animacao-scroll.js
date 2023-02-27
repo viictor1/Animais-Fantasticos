@@ -11,7 +11,7 @@ export default function animaScroll(){
                 }
             })
         }
-    
+        animaScroll();
         window.addEventListener('scroll', animaScroll);
     }
 }
