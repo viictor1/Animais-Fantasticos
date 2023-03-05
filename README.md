@@ -32,6 +32,7 @@
 - ToolTipBox
 - Utilizar Mutation Observer
 - Trabalhar com Date
+- Puxar dados de um JSON
 
 ## Versão desktop
 ![Foto projeto](./projeto-desktop.png)
