@@ -8,6 +8,7 @@ import dropDownMenu from './modules/dropDownMenu.js';
 import menuMobile from './modules/menuMobile.js';
 import dateFuncionamento from './modules/dateFuncionamento.js';
 import fetchAnimais from './modules/fetchAnimais.js';
+import fetchBTC from './modules/fetchBTC.js';
 
 scrollSuave();
 animaScroll();
@@ -19,3 +20,4 @@ dropDownMenu();
 menuMobile();
 dateFuncionamento();
 fetchAnimais();
+fetchBTC();

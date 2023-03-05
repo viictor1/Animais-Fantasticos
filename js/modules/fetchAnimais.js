@@ -1,14 +1,19 @@
 import animaNumeros from './animaNumeros.js';
 export default function fetchAnimais(){
     async function puxarDados(){
-        const response = await fetch('../animaisAPI.json');
-        const animaisJson = await response.json();
-        
-        animaisJson.forEach(animal => {
-            const divPai = document.querySelector('.numeros-grid');
-            divPai.appendChild(criarDiv(animal));
-        });
-        animaNumeros();
+        try{
+            const response = await fetch('../animaisAPI.json');
+            const animaisJson = await response.json();
+            
+            animaisJson.forEach(animal => {
+                const divPai = document.querySelector('.numeros-grid');
+                divPai.appendChild(criarDiv(animal));
+            });
+            animaNumeros();
+        }
+        catch(erro){
+            console.log(Error(erro));
+        }
     }
     
     function criarDiv(animal){
