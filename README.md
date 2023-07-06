@@ -1,13 +1,13 @@
-# Animais-Fantasticos
+## Animais-Fantasticos
 
-## Acesse o deploy do projeto: [Projeto](https://animais-fantasticos-victor.vercel.app/)
+### Acesse o deploy do projeto: [Projeto](https://animais-fantasticos-victor.vercel.app/)
 
-## Projeto desenvolvido com o curso de JavaScript da [Origamid](https://www.origamid.com/)
+### Projeto desenvolvido com o curso de JavaScript da [Origamid](https://www.origamid.com/)
 
-## Tecnologias utilizadas
+### Tecnologias utilizadas
 - HTML, CSS e JavaScript
 
-## Funcionalidades
+### Funcionalidades
 - Trocar as informações dos animais ao clicar na imagem respectiva na lista de imagens (navegação por tabs)
 - Scroll suave ao clicar nos links internos
 - Mostrar resposta ao clicar na pergunta do FAQ (accordion list)
@@ -19,7 +19,7 @@
 - Animação de números crescendo (estilo timer)
 - Indicador visual indicando se está ou não em horário de funcionamento
 
-## Habilidades desenvolvidas
+### Habilidades desenvolvidas
 - Responsividade 
 - Um pouco sobre transições e animações
 - Conhecimentos de JavaScript
@@ -34,9 +34,9 @@
 - Trabalhar com Date
 - Puxar dados de um JSON
 
-## Versão desktop
+### Versão desktop
 ![Foto projeto](./projeto-desktop.png)
 
-## Versão mobile
+### Versão mobile
 ![Foto projeto](./projeto-mobile.png)
 
